@@ -1,0 +1,18 @@
+server:
+  port: 8080
+springdoc:
+  api-docs:
+    path: /swagger-doc/v3/api-docs
+    groups:
+      enabled: true
+  swagger-ui:
+    path: /swagger-doc/swagger-ui.html
+spring:
+  data:
+    mongodb:
+      database: cricketersdb
+      host: localhost
+      port: 27017
+
+
+
